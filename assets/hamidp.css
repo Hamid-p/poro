@@ -1,0 +1,29 @@
+.post-item {
+    border: 1px solid #0a0a0a;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.post-single {
+
+    border: 1px solid #ff0000;
+    background-color: rgba(255, 232, 255, 0.55);
+    padding: 10px;
+    margin: 100px 50px;
+}
+
+
+.post-single h3 {
+    background-color: #eee;
+}
+
+
+.pagination {
+    background-color: #eeeeee;
+    display: inline;
+}
+
+.pagination li {
+    display: inline;
+    margin: 5px;
+}
