@@ -1,5 +1,6 @@
 <?php get_header() ?>
 
+<?php do_action('add_meta_boxes_prefix-teammembers'); ?>
 
 <?php
 

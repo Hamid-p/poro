@@ -9,6 +9,15 @@
             <time> <?php echo get_the_date(); ?></time>
             <article>
                 <?php the_content(); ?>
+
+                <?php
+
+                $value = get_post_meta(get_the_ID(), '_hamid_google_maps_meta_key')[0] ?? "";
+
+                ?>
+
+                <iframe style="width: 100%" src="<?php echo $value ?>" height="400"></iframe>
+
             </article>
 
         </div>
